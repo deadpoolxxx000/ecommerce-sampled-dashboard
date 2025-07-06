@@ -1,42 +1,36 @@
-\# 📊 Sampled eCommerce Dashboard
+# 🛒 Brazilian eCommerce Dashboard
 
+A Tableau-powered dashboard exploring user behavior and revenue trends from a sampled Brazilian eCommerce dataset. This project offers insights into top-performing brands, product categories, and engagement patterns through interactive visualizations.
 
+## 📊 Project Overview
 
-An interactive Tableau dashboard built using a simplified eCommerce dataset to explore product performance and user engagement trends.
-
-
-
-!\[Dashboard Preview](images/dashboard-preview.png)
-
-
+This project is built using a sampled version of the Olist Brazilian eCommerce dataset. It analyzes customer interactions across various stages of the sales funnel — from product views to purchases — and identifies key revenue drivers.
 
 ---
 
+## 💡 Key Insights
 
-
-\## 🚀 Overview
-
-
-
-This project uses a \*\*sampled eCommerce dataset\*\* containing anonymized user sessions, product categories, and interaction events (views, cart, purchases). The goal is to visualize:
-
-
-
-\- 💸 Revenue by \*\*brand\*\* and \*\*product category\*\*
-
-\- 👥 User engagement by \*\*event type\*\*
-
-\- 📊 Overall patterns in shopping and product interactions
-
-
+- 🔝 **Top 10 Brands** by total sales value
+- 🏷️ **Most Profitable Product Categories**
+- 📈 **User Engagement** across different event types (view, cart, purchase)
 
 ---
 
+## 🧰 Tools & Technologies
 
+- **Tableau Public** (for data visualization)
+- **CSV (ecommerce_sampled.csv)** (pre-joined flat dataset)
+- **Data Cleaning & Grouping** (via Tableau’s calculated fields and filters)
 
-\## 📂 Project Structure
+---
 
+## 🖼️ Dashboard Preview
 
+> 📍 To view the dashboard, download and open `dashboard.twbx` in [Tableau Public](https://public.tableau.com/)
 
+![Dashboard](images/dashboard-preview.png)
 
+---
+
+## 📂 Project Structure
 
